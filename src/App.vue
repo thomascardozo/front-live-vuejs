@@ -130,7 +130,7 @@
                 this.usuario = {}
                 }).catch(e => {
                   this.errors = e.response.data.errors
-                  alert('Problemas ao salvar o usuario, verifique o preenchimento dos campos!')
+                  alert('Problemas ao remover o usuario!')
                   })
 
               }         
